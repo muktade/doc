@@ -1,14 +1,848 @@
-<!doctype html>
-<html lang="en" data-critters-container>
-<head>
-  <meta charset="utf-8">
-  <title>LiveTv</title>
-  <base href="/doc">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<style>@charset "UTF-8"</style><link rel="stylesheet" href="styles.9c74c786fc26c21f.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.9c74c786fc26c21f.css"></noscript></head>
-<body>
-  <h1>Live Tv </h1>
-  <app-root></app-root>
-<script src="runtime.c61d946c6195e64d.js" type="module"></script><script src="polyfills.ef945932ba8fd0ce.js" type="module"></script><script src="main.1b24784871c7179c.js" type="module"></script></body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="title" content="">
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width" initial-scale="1" user-scalable="no">
+    <meta name="robots" content="noodp,noydir">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!--[if gte IE 6]>
+      <script src="assets/plugins/html5shiv.js" type="text-javascript">
+      </script>
+      <script src="assets/plugins/respond.min.js" type="text-javascript">
+      </script>
+    <![endif]-->
+
+        <title>ICC FTP SERVER</title>
+        <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico"/>
+        <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico"/>
+    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    
+        <link href="assets/plugins/jquery.mCustomScrollbar/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <link href="assets/plugins/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/plugins/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/plugins/photoswipe/dist/photoswipe.css" rel="stylesheet">
+    <link href="assets/plugins/photoswipe/dist/default-skin/default-skin.css" rel="stylesheet">
+    <link href="assets/plugins/calentim-daterangepicker/build/css/calentim.min.css" rel="stylesheet">
+        
+    <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="vplayer/fluidplayer.css" type="text/css"/>
+  </head>
+  <body class="theme-color-purple" style="background-color: black;">
+        <div class="swipeleft">
+      </div>
+      <div class="swiperight">
+      </div>
+
+            <header class="style1">
+        <div class="top-bar hidden-sm hidden-xs">
+          <a class="logotype" href="index.php?category=0">
+          <div class="logo"><img src="images/logo-purple.svg" alt="logotype" /></div>
+          <div class="text"><span style="white-space: nowrap;">FTP SERVER</span></div></a>
+        </div>
+        <a class="logotype mobile-logotype" href="index.php?category=0">
+        <div class="logo"><img src="images/logo-purple.svg" alt="logotype" /></div>
+        <div class="text"><span style="white-space: nowrap;">FTP SERVER</span></div></a>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="livetv.php"><span style="font-weight: 900; border: 2px solid #800040; border-radius: 5px; padding: 7px;">LIVE TV</span></a>
+                    </li>
+        <li class="dropdown">
+                    <a class="dropdown-toggle"  href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Movies<i class="fa fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                                    <li>
+                        <a href="index.php?category=9">3D<b class = "badge pull-right">72</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=74">4K<b class = "badge pull-right">642</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=33">Animated<b class = "badge pull-right">842</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=83">Anime<b class = "badge pull-right">41</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=59">Bangla (BD)<b class = "badge pull-right">248</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=60">Bangla (Kolkata)<b class = "badge pull-right">971</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=76">Chinese Movies<b class = "badge pull-right">462</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=41">Documentaries<b class = "badge pull-right">354</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=43">Dual Audio<b class = "badge pull-right">1504</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=19">English Movies<b class = "badge pull-right">12105</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=44">Exclusive Full-HD <b class = "badge pull-right">266</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=2">Hindi Movies<b class = "badge pull-right">2541</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=79">Indonesian Movies<b class = "badge pull-right">70</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=80">Japanese Movies<b class = "badge pull-right">175</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=75">Korean Movies<b class = "badge pull-right">310</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=64">Other Foreign Movie<b class = "badge pull-right">2469</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=77">Pakistani Movies<b class = "badge pull-right">30</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=71">Punjabi Movies<b class = "badge pull-right">136</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=32">South Indian (Hindi Dubbed)<b class = "badge pull-right">1301</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=73">South Indian Movies<b class = "badge pull-right">731</b></a>
+                    </li>
+                          </ul>
+                </li>
+        <li class="dropdown">
+                    <a class="dropdown-toggle"  href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Games<i class="fa fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                                    <li>
+                        <a href="index.php?category=56">Android Games<b class = "badge pull-right">6</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=45">Kids Games<b class = "badge pull-right">31</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=58">Racing Games<b class = "badge pull-right">47</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=25">Strategy Games<b class = "badge pull-right">516</b></a>
+                    </li>
+                          </ul>
+                </li>
+        <li class="dropdown">
+                    <a class="dropdown-toggle"  href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Software<i class="fa fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                                    <li>
+                        <a href="index.php?category=12">Adobe Collection<b class = "badge pull-right">65</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=3">Anti Virus<b class = "badge pull-right">15</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=13">Bangla Software<b class = "badge pull-right">12</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=6">Browser<b class = "badge pull-right">17</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=65">Developer Tools<b class = "badge pull-right">17</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=16">Internet Software<b class = "badge pull-right">22</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=11">Microsoft Office<b class = "badge pull-right">9</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=14">Multimedia Software<b class = "badge pull-right">54</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=4">OS<b class = "badge pull-right">80</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=17">Others Software<b class = "badge pull-right">42</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=15">Utility Software<b class = "badge pull-right">68</b></a>
+                    </li>
+                          </ul>
+                </li>
+        <li class="dropdown">
+                    <a class="dropdown-toggle"  href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TV Show<i class="fa fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                                    <li>
+                        <a href="index.php?category=38">Awards<b class = "badge pull-right">58</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=34">Bangla Drama<b class = "badge pull-right">1470</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=35">Bangla Telefilm<b class = "badge pull-right">113</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=82">Serials (Animation)<b class = "badge pull-right">59</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=78">Serials (Anime)<b class = "badge pull-right">191</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=39">Serials (Bangla)<b class = "badge pull-right">185</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=81">Serials (Documentaries)<b class = "badge pull-right">32</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=72">Serials (Dual Audio)<b class = "badge pull-right">320</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=36">Serials (English)<b class = "badge pull-right">1675</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=37">Serials (Hindi)<b class = "badge pull-right">725</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=70">Serials (Others)<b class = "badge pull-right">384</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=69">Sports<b class = "badge pull-right">0</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=52">WWE<b class = "badge pull-right">784</b></a>
+                    </li>
+                          </ul>
+                </li>
+        <li class="dropdown">
+                    <a class="dropdown-toggle"  href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Others<i class="fa fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                                    <li>
+                        <a href="index.php?category=49">Audio Bangla<b class = "badge pull-right">8</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=62">Audio English<b class = "badge pull-right">0</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=55">Audio Hindi<b class = "badge pull-right">0</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=68">E-Books<b class = "badge pull-right">44</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=66">Kids (Cartoon)<b class = "badge pull-right">115</b></a>
+                    </li>
+                                    <li>
+                        <a href="index.php?category=53">Learning<b class = "badge pull-right">28</b></a>
+                    </li>
+                          </ul>
+                </li>
+                        <li class="dropdown">
+                            <a href="https://digibangla.tech" target="_blank"><span>BD TECH NEWS</span></a>
+                        </li>
+          </ul>
+          <form name="fproductlistsrch" id="fproductlistsrch" class="navbar-form navbar-right" method="post" action="index.php" >
+                                        <input type="hidden" name="token" value="DDkKL1FbxKt8tonc3fOEMA.."/>
+                                <div class="form-group">
+              <input id="psearch" name="psearch"  class="form-control" placeholder="Search" autocomplete="off"/>
+            </div>
+            <button class="btn btn-default" onclick="this.form.submit();">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+                        <button class="btn btn-default" type="button" title="" onclick="AdvancedSearch();" ><span class="fa fa-film"></span></button>
+          </form>
+        </div>
+      </header>
+    <div class="main-wrapper" style="max-width: 1200px; display: block; margin-left: auto; margin-right: auto; background-color: white;"> <!--  sidebar-opened -->
+      
+      <main>
+<style type="text/css">
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+}
+.rep-sticker{
+    width: 180px;
+    height: auto;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    border: 1px solid silver;
+    page-break-inside: avoid;
+}
+.rep-thumbnail{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.imgani:hover{
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    opacity: 0.6;    
+}
+.rep-caption{
+  padding: 2px 5px;
+  text-align: center;
+  border-bottom: 2px solid red;
+}
+</style>
+                <div id="add">
+                <a href="https://aynaott.com/" target="_blank">
+                  <img src="assets/img/Web-banner-2.jpg"  style="width: 100%;" alt="Ayna OTT" />
+                </a>
+                <!-- <a href="https://www.radiantiptv.com/bd/" target="_blank">
+                  <img src="phpimages/final_banner.jpg" style="width: 100%;" />
+                </a> -->
+                </div>
+                <div id="dtv" style="background-color: #000000; border-top: 10px solid black; border-bottom: 10px solid black; border: 1px solid reb; display: none;">
+                    <iframe id="tviframe" name="iframe_a" scrolling="no" top="0" hspace="0" vspace="0" allowtransparency="yes" frameborder="0" allowfullscreen="yes" style="display: block; margin-left: auto; margin-right: auto; border: 0; width: 100%; height: 55vw; max-width: 900px; max-height: 500px;"></iframe>
+                    <video id="tvplayer" controls style="display: block; margin-left: auto; margin-right: auto; border: 0; width: 100%; height: 55vw; max-width: 900px; max-height: 500px;"></video>
+                </div> 
+
+<div class="container" style="margin: 20px 10px;">
+  <ul class="nav nav-tabs">
+  
+        <li class="active"><a style="font-weight: bold;" data-toggle="tab" href="#Bangla">Bangla</a></li>
+  </ul>
+<div class="tab-content" >
+    <div id="Bangla" class="tab-pane fade in active">
+      <div class="row" style="margin: 0px 0px;">
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Bangla Vision</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.213:8080/hls/BanglaVision.m3u8');" href="#top">
+                              <img class="imgani" src="files/banglavision.png" alt="Bangla Vision" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">boisakhi tv</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.213:8080/hls/boishakhi.m3u8');" href="#top">
+                              <img class="imgani" src="files/boishakhi(1).png" alt="boisakhi tv" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">CHANNEL 24</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.206:8080/hls/channel24.m3u8');" href="#top">
+                              <img class="imgani" src="files/channel24.png" alt="CHANNEL 24" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Channel 9</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.206:8080/hls/channel9.m3u8');" href="#top">
+                              <img class="imgani" src="files/channel9(1).png" alt="Channel 9" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Channel i</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.213:8080/hls/channeli.m3u8');" href="#top">
+                              <img class="imgani" src="files/channeli.png" alt="Channel i" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">GaanBangla</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.213:8080/hls/gaanBanglahd.m3u8');" href="#top">
+                              <img class="imgani" src="files/gaanbangla(1).png" alt="GaanBangla" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">NEWS 24</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.213:8080/hls/news24hd.m3u8');" href="#top">
+                              <img class="imgani" src="files/news24(1).png" alt="NEWS 24" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Somoy TV</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.206:8080/hls/somoytv.m3u8');" href="#top">
+                              <img class="imgani" src="files/somoy(1).png" alt="Somoy TV" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Sports 18 (3)</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.212:8080/hls/sports18.m3u8');" href="#top">
+                              <img class="imgani" src="files/sports(6).png" alt="Sports 18 (3)" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Star Sports 1 HD (0)</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.211:8080/hls/StarSports1HD.m3u8');" href="#top">
+                              <img class="imgani" src="files/sports(7).png" alt="Star Sports 1 HD (0)" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Star Sports 1 HD (1)</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.214:8080/hls/PtvSports.m3u8');" href="#top">
+                              <img class="imgani" src="files/sports(11).png" alt="Star Sports 1 HD (1)" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Star Sports 1 HD (2)</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.206:8080/hls/PtvSports.m3u8');" href="#top">
+                              <img class="imgani" src="files/sports(8).png" alt="Star Sports 1 HD (2)" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Star Sports 1 HD (3)</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.212:8080/hls/PtvSports.m3u8');" href="#top">
+                              <img class="imgani" src="files/sports(2).png" alt="Star Sports 1 HD (3)" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Star Sports 1 HD (4)</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.213:8080/hls/PtvSports.m3u8');" href="#top">
+                              <img class="imgani" src="files/sports(9).png" alt="Star Sports 1 HD (4)" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+                <div class="rep-sticker">
+                    <div class="rep-thumbnail">
+                        <div class="rep-caption">
+                            <h5 style="text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Star Sports Select 1 HD (2)</h5>
+                        </div>
+                        <div style="text-align: center; font-size: 13px;">
+                            <!-- <a href="https://aynaott.com/" target="_blank"> -->
+                            <!-- <a href="https://bdportal.aynaott.com/" target="_blank"> -->
+                            <a onclick="ctop('http://10.16.100.206:8080/hls/StarsportsSelect1hd.m3u8');" href="#top">
+                              <img class="imgani" src="files/sports(4).png" alt="Star Sports Select 1 HD (2)" style="width: 100%; height: 100px;"/>
+                            </a>
+              </div>
+                    </div>
+                </div>
+                
+      </div>
+    </div>
+            
+    </div>
+</div>
+      </main>
+      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+          <div class="pswp__container">
+            <div class="pswp__item">
+            </div>
+            <div class="pswp__item">
+            </div>
+            <div class="pswp__item">
+            </div>
+          </div>
+          <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+              <div class="pswp__counter">
+              </div>
+              <button class="pswp__button pswp__button--close" title="Close (Esc)">
+              </button>
+              <button class="pswp__button pswp__button--share" title="Share">
+              </button>
+              <button class="pswp__button pswp__button--fs" title="Toggle fullscreen">
+              </button>
+              <button class="pswp__button pswp__button--zoom" title="Zoom in/out">
+              </button>
+              <div class="pswp__preloader">
+                <div class="pswp__preloader__icn">
+                  <div class="pswp__preloader__cut">
+                    <div class="pswp__preloader__donut">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div class="pswp__share-tooltip">
+              </div>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+              <div class="pswp__caption__center">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-nav">          
+            <div class="copyright" style="text-align: center;">
+              <span style="font-size: 16px;">
+                Copyright &copy; 2018 <a href="http://www.softintechnology.com" target="_blank"><strong style="color: blue;">Softin Technology Ltd.</strong></a>
+              </span>
+            </div>
+        </div>
+      </footer>
+    </div>
+    
+        <div id="adSearch" class="modal">    
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <form class="form-inline ewForm" method="post" action="">
+                <input type="hidden" name="token" value="DDkKL1FbxKt8tonc3fOEMA..">
+                <input type="hidden" name="ads" value="post">
+            <div class="modal-header">
+                <h3 class="modal-title" style="font-weight: bolder; color: #000000;" >Advanced Search</h3>
+            </div>
+            <div class="modal-body">                          
+            
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-submit ewButton">Search</button>
+                <button type="button" class="btn ewButton" data-dismiss="modal" aria-hidden="true">Cancel</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+    
+    
+    <div class="overlay-bg"></div>
+    <script src="assets/plugins/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/placeholder.js" type="text/javascript"></script>
+    <script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-select/dist/js/bootstrap-select.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/modernizr.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/owl.carousel/dist/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/owlcarousel2-thumbs/dist/owl.carousel2.thumbs.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-validator/dist/validator.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/photoswipe/dist/photoswipe.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/photoswipe/dist/photoswipe-ui-default.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/isotope/isotope.pkgd.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/isotope/isotope.layoutModules.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery.touchSwipe.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/moment/min/moment.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/calentim-daterangepicker/build/js/calentim.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/appear.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/wow.min.js" type="text/javascript"></script>
+      <script src="vplayer/fluidplayer.js"></script>
+    <script src="js/hls.min.js" type="text/javascript"></script>
+    <script src="js/app.js?v=11" type="text/javascript"></script>
+        
+<script type="text/javascript">
+        var EW_IS_MOBILE = false;
+        
+        $(document).ready(function() {
+            var maxWidth = 0;
+            $('.dropdown-menu').each(function(i){
+                if(!EW_IS_MOBILE)
+                $(this).width($(this).width()+50);
+            });
+          });
+          
+        function showtv() {
+            var $ = jQuery;
+          var $d = $("#dtv");
+            $d.toggle();
+        }
+        
+        function AdBox() {
+            var $ = jQuery;
+          var $dlg = $("#myad");
+        $dlg.modal("show");
+        }
+        
+        function AdvancedSearch() {
+            var $ = jQuery;
+          var $dlg = $("#adSearch");
+            
+            // submit
+          var _submit = function() {
+            var form = $dlg.find(".modal-body form")[0];
+            var frm = ewForms[form.id];
+            frm.UpdateTextArea();
+            if (frm.Validate()) {
+              frm.DestroyEditor();
+              form.submit();        
+            }
+            return false;
+          }
+            
+            $dlg.on("hidden.bs.modal", function(data){
+                var frm = $dlg.find(".modal-body form").data("form");
+            if (frm) frm.DestroyEditor();
+            $dlg.find(".modal-body").html("");
+            $dlg.find(".modal-footer .btn-submit").unbind();
+            });
+            $dlg.find(".modal-footer .btn-submit").click(_submit).focus();
+            $.get("advancedsrch.php?modal=1", function(data){
+            $dlg.find(".modal-body").append($(data));            
+            });
+            
+        $dlg.modal("show");    
+        }
+        
+        function UpdateHits(id, type, show = false) {
+            var $ = jQuery;
+          $.post("command.php", {id: id, type: type},
+          function(data,status){
+                if ($.trim(data) && show == true){
+                    var $dlg = $("#ewDialog");
+                $dlg.html(data);
+                $dlg.modal("show");
+                    $dlg.on('hidden.bs.modal', function (e) {
+                        $("#player").attr("src","");
+                    })
+                }
+          });
+        }
+        
+        function AddRequest(group, name) {
+            if (group && name.trim()) {
+                var $ = jQuery;
+              $.post("command.php", {group: group, name: name, request: 'request'},
+              function(data,status){
+                    if (!$.trim(data))
+                      $("#request").collapse('hide');
+                        $("#x_name").val("");
+              });
+            } else {
+                alert("Type Request Name!");
+            }
+        }
+        
+        function expand($elem){
+            var $ = jQuery;
+            var angle = 0;
+            var t = setInterval(function () {
+                if(angle == 1440){
+                    clearInterval(t);
+                    return;
+                }
+                angle += 40;
+                $('.link',$elem).stop().animate({rotate: '+=-40deg'}, 0);
+            },10);
+            $elem.stop().animate({width:'180px'}, 800)
+            .find('.item_content').fadeIn(400,function(){
+                $(this).find('p').stop(true,true).fadeIn(600);
+            });
+        }
+        
+        function collapse($elem){
+            var $ = jQuery;
+            var angle = 1440;
+            var t = setInterval(function () {
+                if(angle == 0){
+                    clearInterval(t);
+                    return;
+                }
+                angle -= 40;
+                $('.link',$elem).stop().animate({rotate: '+=40deg'}, 0);
+            },10);
+            $elem.stop().animate({width:'52px'}, 800)
+            .find('.item_content').stop(true,true).fadeOut().find('p').stop(true,true).fadeOut();
+        }
+        
+                
+        function playM3u8(url){
+            if(Hls.isSupported()) {
+                var video = document.getElementById('tvplayer');
+                video.volume = 1.0;
+                var hls = new Hls();
+                var m3u8Url = decodeURIComponent(url)
+                hls.loadSource(m3u8Url);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED,function() {
+                    video.play();
+                });
+            }
+            else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                var video = document.getElementById('tvplayer');
+                video.src = url;
+                video.addEventListener('canplay',function() {
+                    video.play();
+                });
+            }
+        }
+        
+        function stopM3u8(){
+            var video = document.getElementById('tvplayer');
+                video.src = "";
+        }
+             
+        /*(function($) {
+            $(document).ready(function() {
+               var akas=true;
+                $("#content-slider").lightSlider({
+                    loop:true,
+            item:6,
+            speed:500,
+                    auto:true,
+                    pager:false,
+                    pauseOnHover:true,
+                    keyPress:true
+                });
+                $('.item').hover(
+                    function(){
+                        var $this = $(this);
+                        expand($this);
+                    },
+                    function(){
+                        var $this = $(this);
+                        collapse($this);
+                    }
+                );
+            });                        
+        })(jQuery);*/
+        autocomplete(document.getElementById("psearch"));
+        
+function ctop(url) {
+    var $ = jQuery;
+    var ext = (url.substr(1 + url.lastIndexOf("/")).split('?')[0]).split('#')[0].split('.').pop();
+    if(['m3u8', 'm3u', 'ts'].includes(ext)){
+    $("#tvplayer").css("display","block");    
+    $("#tviframe").css("display","none");
+    playM3u8(url);
+    } else {
+    $("#tviframe").attr("src",url);     
+    $("#tviframe").css("display","block"); 
+    $("#tvplayer").css("display","none"); 
+    stopM3u8();
+    }
+    $("#dtv").css("display","block");
+    $("#add").css("display","none");
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+  </body>
 </html>
